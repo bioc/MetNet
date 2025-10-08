@@ -276,8 +276,8 @@ getLinks <- function(mat, exclude = "== 1", decreasing = TRUE) {
 #' is not specified).
 #' 
 #' @param values `character`, take from the adjacency matrix all values ("all"),
-#' the minimum of the pairs ("min"), \eqn{a^* _{ij} = min(a_{ij}, a_{ji})},
-#' or the maximum ("max"), \eqn{a^*_{ij} = max(a_{ij}, a_{ji})}
+#' the minimum of the pairs ("min"), \eqn{a^* _{ij} = min(a_{ij}, a_{ji})}, 
+#' or the maximum ("max"), \eqn{a^*_{ij} = max(a_{ij}, a_{ji})} 
 #' 
 #' @param na.rm `logical`, if set to `TRUE`, the `NA`s in the assay slots will 
 #' not be taken into account when creating the `"consensus"` assay. If set 

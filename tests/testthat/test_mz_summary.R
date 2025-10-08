@@ -103,8 +103,8 @@ test_that("mz_vis", {
     expect_error(mz_vis(sum_test_df), "'df' does not contain the column 'count'")
     expect_true(ggplot2::is_ggplot(vis))
     expect_identical(vis$labels$title, "Numbers of determined mass differences")
-    expect_identical(ggplot2::get_labs(vis)$y, "count")
-    expect_identical(ggplot2::get_labs(vis)$x, "group")
+    expect_identical(ggplot2::get_labs(vis)$y, "count") 
+    expect_identical(ggplot2::get_labs(vis)$x, "group") 
     expect_equal(vis$data, summary_struct_adj)
 })
 ## END unit test mz_vis ##

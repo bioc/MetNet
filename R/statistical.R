@@ -445,7 +445,7 @@ correlation <- function(x, method = "pearson", p.adjust = "none", ...) {
 #' `cor2pcor` from `corpcor`
 #' 
 #' @details
-#' The correlation coefficients \eqn{r_{ij|S}} are obtained from `cor2pcor`
+#' The correlation coefficients \eqn{r_{ij|S}} are obtained from `cor2pcor` 
 #' (`corpcor` package).
 #' 
 #' The t-values are calculated via
